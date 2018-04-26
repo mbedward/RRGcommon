@@ -1,0 +1,9 @@
+Package: RRGcommon
+Title: Common functions and data sets for RRG analyses
+Version: 0.1
+Authors@R: person("Michael", "Bedward", email = "michael.bedward@gmail.com", role = c("aut", "cre"))
+Description: A small collection of functions and data sets that are used across RRG analyses.
+Depends: R (>= 3.4.0)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
