@@ -14,7 +14,9 @@ A data frame of meta-data for sites and plots consisting of:
 \item{site}{Site identifier (int)}
 \item{plot}{Plot identifier (int)}
 \item{site.quality}{Mapped site quality class (factor: SQ1; SQ2)}
-\item{year.thinned}{Year of thinning for treatment plots (factor: 2016; 2017)}
+\item{year.thinned}{Year of thinning for treatment plots (factor: 2016; 2017).
+  Control plots have 'NA' values. Plots thinned in 2017 were affected by flooding
+  just prior to thinning.}
 \item{treat}{Plot treatment (factor: control; moderate; heavy)}
 }
 }
