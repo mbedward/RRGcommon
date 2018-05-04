@@ -38,3 +38,24 @@ save_plot <- function(ggobj, path, pagesize, orientation = c("portrait", "landsc
          height = h,
          units = pagesize$units)
 }
+
+
+
+#' Format axis tick labels as percentages
+#'
+#' This function is a wrapper around `scales::percent` to
+#' give tick labels without the '%' symbol.
+#'
+#' @param x Numeric vector of values to format.
+#' @return Labels for `x` values multiplied by 100.
+#'
+#' @examples
+#' plain_percent(runif(10))
+#'
+#' @export
+#'
+# axis tick values as percentages without '%' sign
+plain_percent <- function(x) {
+  stringr::str_replace(scales::percent(x), "\\%", "")
+}
+

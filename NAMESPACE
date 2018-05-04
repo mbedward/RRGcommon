@@ -2,6 +2,7 @@
 
 export(calculate_stem_area)
 export(load_from)
+export(plain_percent)
 export(save_plot)
 importFrom(dplyr,"%>%")
 importFrom(dplyr,left_join)
