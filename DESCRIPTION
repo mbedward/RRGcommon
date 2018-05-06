@@ -4,8 +4,10 @@ Version: 0.1
 Authors@R: person("Michael", "Bedward", email = "michael.bedward@gmail.com", role = c("aut", "cre"))
 Description: A small collection of functions and data sets that are used across RRG analyses.
 Depends: R (>= 3.4.0)
-Imports: dplyr,
+Imports: coda,
+  dplyr,
   ggplot2,
+  rjags,
   scales,
   stringr
 Encoding: UTF-8
