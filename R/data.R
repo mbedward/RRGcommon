@@ -9,6 +9,8 @@
 #'   Control plots have 'NA' values. Plots thinned in 2017 were affected by flooding
 #'   just prior to thinning.}
 #' \item{treat}{Plot treatment (factor: control; moderate; heavy)}
+#' \item{ecentre}{Easting (MGA Zone 55) of 9ha plot centre}
+#' \item{ncentre}{Northing (MGA Zone 55) of 9ha plot centre}
 #' }
 "SITES"
 

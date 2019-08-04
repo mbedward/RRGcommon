@@ -1,6 +1,7 @@
 Package: RRGcommon
 Title: Common functions and data sets for RRG analyses
-Version: 0.1
+Version: 0.2
+Date: 2019-08-05
 Authors@R: person("Michael", "Bedward", email = "michael.bedward@gmail.com", role = c("aut", "cre"))
 Description: A small collection of functions and data sets that are used across RRG analyses.
 Depends: R (>= 3.4.0)
@@ -10,6 +11,10 @@ Imports: coda,
   rjags,
   scales,
   stringr
+License: CC-BY
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.0.1
+Suggests: knitr,
+    rmarkdown
+VignetteBuilder: knitr
